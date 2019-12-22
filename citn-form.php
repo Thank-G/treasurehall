@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ICAN Registration Form</title>
+    <title>CITN Registration Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -79,7 +79,7 @@
                             </form>
                         </div> -->
                         <div class="col-md-12 order-md-1">
-                            <h3 class="mb-3 font-weight-bold text-center">ICAN REGISTRATION FORM</h3>
+                            <h3 class="mb-3 font-weight-bold text-center">CITN REGISTRATION FORM</h3>
                             <form class="needs-validation" novalidate>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -100,7 +100,7 @@
 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="icanRegNum" placeholder="ICAN REGISTRATION NUMBER" value="" name="first_name" required>
+                                        <input type="text" class="form-control" id="citnRegNum" placeholder="CITN REGISTRATION NUMBER" value="" name="first_name" required>
                                         <div class="invalid-feedback">
                                             Valid ican registration number is required.
                                         </div>
@@ -193,79 +193,87 @@
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">FOUNDATION</h6>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="taxation" id="taxation">
-                                        <label for="taxation" class="mr-3">TAXATION</label> <span id="taxationPrice"> </span>
+                                        <input type="checkbox" name="principle" id="principle_taxation">
+                                        <label for="principle" class="mr-3">PRINCIPLES OF TAXATION</label> <span id="principleTaxationPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_finance" id="businessFinance">
-                                        <label for="business finance" class="mr-3">BUSINESS, MGT AND FINANCE</label> <span id="businessFinancePrice"> </span>
+                                        <input type="checkbox" name="accounting" id="accounting">
+                                        <label for="accounting" class="mr-3">ACCOUNTING</label> <span id="accountingPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="finacial_accounting" id="financialAcct">
-                                        <label for="financial accounting" class="mr-3">FINANCIAL ACCOUNTING</label> <span id="financialAcctPrice"> </span>
+                                        <input type="checkbox" name="gen_principles" id="genPrinciples">
+                                        <label for="gen principles" class="mr-3">GEN PRINCIPLES OF LAW</label> <span id="genPrinciplesPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="management_information" id="managementInfo">
-                                        <label for="management information" class="mr-3">MANAGEMENT INFORMATION</label> <span id="managementInfoPrice"> </span>
+                                        <input type="checkbox" name="economics" id="economics">
+                                        <label for="economics" class="mr-3">ECONOMICS</label> <span id="economicsPrice"> </span>
+                                    </div>  
+                                </div>
+
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX I</h6>
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="quantitatives_tech" id="quantitativesTech">
+                                        <label for="quantitatives tech" class="mr-3">QUANTITATIVES TECH</label> <span id="quantitativesTechPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_law" id="businessLaw">
-                                        <label for="business law" class="mr-3">BUSINESS LAW</label> <span id="businessLawPrice"> </span>
+                                        <input type="checkbox" name="revenue_law" id="revenueLaw">
+                                        <label for="revenue law" class="mr-3">REVENUE LAW</label> <span id="revenueLawPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="income_taxation" id="incomeTaxation">
+                                        <label for="income taxation" class="mr-3">INCOME TAXATION</label> <span id="incomeTaxationPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="indirect_taxation" id="indirectTaxation">
+                                        <label for="indirect taxation" class="mr-3">INDIRECT TAXATION</label> <span id="indirectTaxationPrice"> </span>
                                     </div>
                                 </div>
 
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">SKILLS</h6>
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX II</h6>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="financial_reporting" id="financialReporting">
-                                        <label for="financial reporting" class="mr-3">FINANCIAL REPORTING</label> <span id="financialReportingPrice"> </span>
+                                        <input type="checkbox" name="taxation_e-commerce" id="taxationE-commerce">
+                                        <label for="taxation of e-commerce" class="mr-3">TAXATION OF E-COMMERCE</label> <span id="taxationE-commercePrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="audit_insurance" id="auditInsurance">
-                                        <label for="audit and insurance" class="mr-3">AUDIT AND INSURANCE</label> <span id="auditInsurancePrice"> </span>
+                                        <input type="checkbox" name="strategy_risk" id="strategyRisk">
+                                        <label for="strategy risk and ethics" class="mr-3">STRATEGY, RISK & ETHICS</label> <span id="strategyRiskPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="performance_mgt" id="performanceMgt">
-                                        <label for="performance management" class="mr-3">PERFORMANCE MANAGEMENT</label> <span id="performanceMgtPrice"> </span>
+                                        <input type="checkbox" name="tax_audit" id="taxAudit">
+                                        <label for="tax audit and inv" class="mr-3">TAX AUDIT & INV</label> <span id="taxAuditPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="public_sector" id="publicSector">
-                                        <label for="public sector accounting and finance" class="mr-3">PUBLIC SECTOR ACCT AND FINANCE</label> <span id="publicSectorPrice"> </span>
-                                    </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="corporate_strategic" id="corporateMgt">
-                                        <label for="corporate strategic management & ethics" class="mr-3">CORPORATE STRATEGIC MGT AND ETHICS</label> <span id="corporateMgtPrice"> </span>
+                                        <input type="checkbox" name="intanational_taxation" id="intanationalTaxation">
+                                        <label for="intanational taxation" class="mr-3">INTERNATIONAL TAXATION</label> <span id="intanationalTaxationPrice"> </span>
                                     </div>
                                 </div>
 
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROFESSIONAL</h6>
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX III</h6>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="corporate_reporting" id="corporateReporting">
-                                        <label for="corporate reporting" class="mr-3">CORPORATE REPORTING</label> <span id="corporateReportingPrice"> </span>
+                                        <input type="checkbox" name="oil_taxation" id="oilTaxation">
+                                        <label for="oil and gas taxation" class="mr-3">OIL, GAS TAXATION</label> <span id="oilTaxationPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="adv_insurance" id="advInsurance">
-                                        <label for="adv audit and insurance" class="mr-3">ADV. AUDIT AND ASSURANCE</label> <span id="advInsurancePrice"> </span>
+                                        <input type="checkbox" name="solid_taxation" id="solidTaxation">
+                                        <label for="solid minerals taxation" class="mr-3">SOLID MINERALS TAXATION</label> <span id="solidTaxationPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="strategic_finance" id="strategicFinMgt">
-                                        <label for="strategic finance management" class="mr-3">STRATEGIC FIN. MGT</label> <span id="strategicFinMgtPrice"> </span>
+                                        <input type="checkbox" name="tax_management" id="taxManagement">
+                                        <label for="tax management" class="mr-3">TAX MANAGEMENT</label> <span id="taxManagementPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="advance_taxtation" id="advancedTaxation">
-                                        <label for="advanced taxation" class="mr-3">ADVANCED TAXATION</label> <span id="advancedTaxationPrice"> </span>
-                                    </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="case_study" id="caseStudy">
-                                        <label for="case study" class="mr-3">CASE STUDY</label> <span id="caseStudyPrice"> </span>
+                                        <input type="checkbox" name="practical_taxation" id="practicalTaxation">
+                                        <label for="practical cases in taxation" class="mr-3">PRACTICAL CASES IN TAXATION</label> <span id="practicalTaxationPrice"> </span>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>FOUNDATION</h6>
-                                        <p>Number of papers: </p>
+                                       <h6>FOUNDATION</h6>
+                                       <p>Number of papers: </p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
@@ -395,18 +403,7 @@
                                     </div>
                                 </div>
                                 <hr class="mb-4">
-
-                                <div class="form-inline">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
-                                        <label class="form-check-label" for="validCheck3">
-                                            I have read and agreed to <a href="terms.php"> terms and conditions</a>
-                                        </label>
-                                        <div class="error" id="termsErr"></div>
-                                    </div>
-                                </div>
-
-                                <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+                                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
                             </form>
                         </div>
                     </div>

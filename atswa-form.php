@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ICAN Registration Form</title>
+    <title>ATSWA Registration Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -79,7 +79,7 @@
                             </form>
                         </div> -->
                         <div class="col-md-12 order-md-1">
-                            <h3 class="mb-3 font-weight-bold text-center">ICAN REGISTRATION FORM</h3>
+                            <h3 class="mb-3 font-weight-bold text-center">ATSWA REGISTRATION FORM</h3>
                             <form class="needs-validation" novalidate>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -100,7 +100,7 @@
 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="icanRegNum" placeholder="ICAN REGISTRATION NUMBER" value="" name="first_name" required>
+                                        <input type="text" class="form-control" id="icanRegNum" placeholder="ATSWA REGISTRATION NUMBER" value="" name="first_name" required>
                                         <div class="invalid-feedback">
                                             Valid ican registration number is required.
                                         </div>
@@ -190,82 +190,70 @@
                                 </div>
 
                                 <h5 class="mt-5 font-weight-bold" style="text-decoration: underline">COURSES REGISTERED</h5>
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">FOUNDATION</h6>
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">ATSWA I</h6>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="taxation" id="taxation">
-                                        <label for="taxation" class="mr-3">TAXATION</label> <span id="taxationPrice"> </span>
+                                        <input type="checkbox" name="economics" id="economics">
+                                        <label for="economics" class="mr-3">ECONOMICS</label> <span id="economicsPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_finance" id="businessFinance">
-                                        <label for="business finance" class="mr-3">BUSINESS, MGT AND FINANCE</label> <span id="businessFinancePrice"> </span>
+                                        <input type="checkbox" name="business" id="business">
+                                        <label for="business" class="mr-3">BUSINESS LAW</label> <span id="businessPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="finacial_accounting" id="financialAcct">
-                                        <label for="financial accounting" class="mr-3">FINANCIAL ACCOUNTING</label> <span id="financialAcctPrice"> </span>
+                                        <input type="checkbox" name="basic_accounting" id="basicAccounting">
+                                        <label for="basic accounting" class="mr-3">BASIC ACCOUNTING</label> <span id="basicAccountingPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="management_information" id="managementInfo">
-                                        <label for="management information" class="mr-3">MANAGEMENT INFORMATION</label> <span id="managementInfoPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_law" id="businessLaw">
-                                        <label for="business law" class="mr-3">BUSINESS LAW</label> <span id="businessLawPrice"> </span>
+                                        <input type="checkbox" name="communicating_skills" id="communicatingSkills">
+                                        <label for="communicating skills" class="mr-3">COMMUNICATING SKILLS</label> <span id="communicatingSkillsPrice"> </span>
                                     </div>
                                 </div>
 
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">SKILLS</h6>
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">ATSWA II</h6>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="financial_reporting" id="financialReporting">
-                                        <label for="financial reporting" class="mr-3">FINANCIAL REPORTING</label> <span id="financialReportingPrice"> </span>
+                                        <input type="checkbox" name="financial_accounting" id="financialAccounting">
+                                        <label for="financial accounting" class="mr-3">FINANCIAL ACCOUNTING</label> <span id="financialAccountingPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="audit_insurance" id="auditInsurance">
-                                        <label for="audit and insurance" class="mr-3">AUDIT AND INSURANCE</label> <span id="auditInsurancePrice"> </span>
+                                        <input type="checkbox" name="information_technology" id="informationTechnology">
+                                        <label for="information technology" class="mr-3">INFORMATION TECHNOLOGY</label> <span id="informationTechnologyPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="performance_mgt" id="performanceMgt">
-                                        <label for="performance management" class="mr-3">PERFORMANCE MANAGEMENT</label> <span id="performanceMgtPrice"> </span>
+                                        <input type="checkbox" name="public_sector" id="publicSectorAcc">
+                                        <label for="public sector accounting" class="mr-3">PUBLIC SECTOR ACCOUNTING</label> <span id="publicSectorAccPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="public_sector" id="publicSector">
-                                        <label for="public sector accounting and finance" class="mr-3">PUBLIC SECTOR ACCT AND FINANCE</label> <span id="publicSectorPrice"> </span>
-                                    </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="corporate_strategic" id="corporateMgt">
-                                        <label for="corporate strategic management & ethics" class="mr-3">CORPORATE STRATEGIC MGT AND ETHICS</label> <span id="corporateMgtPrice"> </span>
+                                        <input type="checkbox" name="quantitative_analysis" id="quantitativeAnalysis">
+                                        <label for="quantitative analysis" class="mr-3">QUANTITATIVE ANALYSIS</label> <span id="quantitativeAnalysisPrice"> </span>
                                     </div>
                                 </div>
 
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROFESSIONAL</h6>
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">ATSWA III</h6>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="corporate_reporting" id="corporateReporting">
-                                        <label for="corporate reporting" class="mr-3">CORPORATE REPORTING</label> <span id="corporateReportingPrice"> </span>
+                                        <input type="checkbox" name="management" id="management">
+                                        <label for="management" class="mr-3">MANAGEMENT</label> <span id="managementPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="adv_insurance" id="advInsurance">
-                                        <label for="adv audit and insurance" class="mr-3">ADV. AUDIT AND ASSURANCE</label> <span id="advInsurancePrice"> </span>
+                                        <input type="checkbox" name="costing" id="costing">
+                                        <label for="costing" class="mr-3">COSTING</label> <span id="costingPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="strategic_finance" id="strategicFinMgt">
-                                        <label for="strategic finance management" class="mr-3">STRATEGIC FIN. MGT</label> <span id="strategicFinMgtPrice"> </span>
+                                        <input type="checkbox" name="tax" id="tax">
+                                        <label for="tax" class="mr-3">TAX</label> <span id="taxPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="advance_taxtation" id="advancedTaxation">
-                                        <label for="advanced taxation" class="mr-3">ADVANCED TAXATION</label> <span id="advancedTaxationPrice"> </span>
-                                    </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="case_study" id="caseStudy">
-                                        <label for="case study" class="mr-3">CASE STUDY</label> <span id="caseStudyPrice"> </span>
+                                        <input type="checkbox" name="principles_auditing" id="principlesAuditing">
+                                        <label for="principles of auditing" class="mr-3">PRINCIPLES OF AUDITING</label> <span id="principlesAuditingPrice"> </span>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>FOUNDATION</h6>
-                                        <p>Number of papers: </p>
+                                       <h6>FOUNDATION</h6>
+                                       <p>Number of papers: </p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
@@ -305,7 +293,7 @@
 
 
 
-                                <div class="row">
+                                <div class="row py-3">
                                     <div class="col-md-5 mb-3">
                                         <label for="country">Country</label>
                                         <select class="custom-select d-block w-100" id="country" required>
@@ -395,18 +383,7 @@
                                     </div>
                                 </div>
                                 <hr class="mb-4">
-
-                                <div class="form-inline">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
-                                        <label class="form-check-label" for="validCheck3">
-                                            I have read and agreed to <a href="terms.php"> terms and conditions</a>
-                                        </label>
-                                        <div class="error" id="termsErr"></div>
-                                    </div>
-                                </div>
-
-                                <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+                                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
                             </form>
                         </div>
                     </div>
