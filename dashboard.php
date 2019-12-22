@@ -15,8 +15,8 @@
     <div class="container-fluid">
         <div class="row">
             <!-- SideBar -->
-            <div class="col-md-3 p-3 sidebar">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim, quod modi ex perferendis aperiam, accusantium nesciunt assumenda placeat voluptate ab odit natus? Hic, nam? Unde perspiciatis exercitationem voluptas animi.
+            <div class="col-md-3 p-3 sidebar text-white">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos accusamus rem quia est ipsam exercitationem quisquam qui aut eaque error quasi corporis itaque laudantium, consequatur amet blanditiis? Quasi, at.</p>
             </div> <!-- SideBar -->
 
             <!-- Main Content -->
