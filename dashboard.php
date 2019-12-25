@@ -29,14 +29,6 @@
                         <div class="card-body">
                             <!-- FOUNDATION -->
                             <h4 class="card-title pricing-card-title">FOUNDATION</h4>
-                            <!-- <p class="font-weight-bold text-muted">(New students)</p>
-                            <ul class="list-unstyled mt-3 mb-4" id="foundation">
-                                <li>1 Paper: <span class="font-weight-bold text-muted" id="ican-foundation-new-one-paper"></span></li>
-                                <li>2 Papers: <span class="font-weight-bold text-muted" id="ican-foundation-new-two-papers"></span></li>
-                                <li>3 Papers: <span class="font-weight-bold text-muted" id="ican-foundation-new-three-papers"></span></li>
-                                <li>4 Papers: <span class="font-weight-bold text-muted" id="ican-foundation-new-four-papers"></span></li>
-                                <li>5 Papers: <span class="font-weight-bold text-muted" id="ican-foundation-new-five-papers"></span></li>
-                            </ul> -->
                             <p class="font-weight-bold text-muted">(Returning students)</p>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>1 Paper: <span class="font-weight-bold text-muted"><del style="margin-right: 8px;">₦17500</del></span> <span class="font-weight-bold text-muted" id="ican-foundation-returning-one-paper"></span></li>

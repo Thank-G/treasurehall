@@ -191,7 +191,7 @@
 
                                 <h5 class="mt-5 font-weight-bold" style="text-decoration: underline">COURSES REGISTERED</h5>
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">ATSWA I</h6>
-                                <div class="row">
+                                <div class="row" id="atswa-i-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="economics" id="economics">
                                         <label for="economics" class="mr-3">ECONOMICS</label> <span id="economicsPrice"> </span>
@@ -211,7 +211,7 @@
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">ATSWA II</h6>
-                                <div class="row">
+                                <div class="row" id="atswa-ii-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="financial_accounting" id="financialAccounting">
                                         <label for="financial accounting" class="mr-3">FINANCIAL ACCOUNTING</label> <span id="financialAccountingPrice"> </span>
@@ -231,7 +231,7 @@
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">ATSWA III</h6>
-                                <div class="row">
+                                <div class="row" id="atswa-iii-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="management" id="management">
                                         <label for="management" class="mr-3">MANAGEMENT</label> <span id="managementPrice"> </span>
@@ -252,22 +252,27 @@
 
                                 <div class="row">
                                     <div class="col-md-4 mb-3 courses-selected">
-                                       <h6>FOUNDATION</h6>
-                                       <p>Number of papers: </p>
+                                       <h6>ATSWA I</h6>
+                                       <p>Number of papers: <span id="atswa-i-papers">0</span></p>
+                                       <h6>AMOUNT (₦)</h6>
+                                       <p id="atswa-i-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>SKILLS</h6>
-                                        <p>Number of papers: </p>
+                                        <h6>ATSWA II</h6>
+                                        <p>Number of papers:<span id="atswa-ii-papers">0</span></p>
+                                        <p>Amount: <span id="atswa-ii-amount">0</span></p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>PROFESSIONAL</h6>
-                                        <p>Number of papers: </p>
+                                        <h6>ATSWA III</h6>
+                                        <p>Number of papers:<span id="atswa-iii-papers">0</span></p>
+                                        <p>Amount: <span id="atswa-iii-amount">0</span></p>
                                     </div>
-                                    <div class="col-md-3 mb-3 courses-selected">
+                                    <div class="col-md-3 mb-3 courses-selected" id="ican-total-amount-selected">
                                         <h6>TOTAL AMOUNT (₦)</h6>
-                                        <p>Number of papers: </p>
+                                        <p id="atswa-total-amount">0</p>
+                                        <p>Number of papers: <span id="atswa-total-papers">0</span>  </p>
                                     </div>
                                 </div>
 
@@ -383,7 +388,19 @@
                                     </div>
                                 </div>
                                 <hr class="mb-4">
-                                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+
+                                <div class="form-inline">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
+                                        <label class="form-check-label" for="validCheck3">
+                                            <strong>I have read and agreed to the</strong><a href="terms.php" class="pl-1"> terms and conditions</a>
+                                        </label>
+                                        <div class="error" id="termsErr"></div>
+                                    </div>
+                                </div><br>
+                    
+                                <!-- <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button> -->
+                                <a href="atswa-invoice.php"><button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button></a>
                             </form>
                         </div>
                     </div>

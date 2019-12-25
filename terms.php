@@ -6,13 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Terms and Conditions</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css"></head>
 
 <body>
     <div class="container">
         <div class="container">
-            <h3 style=" color: blue;">STUDENT REGULATION AND CODE OF CONDUCT</h3>
+            <h3 style=" color: blue;" class="pt-5 pb-3 text-center">STUDENT REGULATION AND CODE OF CONDUCT</h3>
             <ul><strong>1.</strong> Students/Trainees are expected to exhibit professional behaviour while attending lectures. Any action
                 that generally interferes with the quality of tuition a class is receiving, which includes the use of
                 mobile telephones or other electronic devices, or any form of abusive verbal or written communication
@@ -71,7 +71,7 @@
                     guidance and mild correction or reprimand of our tutors and staff in good faith.</p>
 
 
-                <h3 class="pt-2 pb-2" style=" color: blue;">TERMS AND CONDITIONS</h3>
+                <h3 class="pt-2 pb-2 text-center" style=" color: blue;">TERMS AND CONDITIONS</h3>
 
                <p><strong>1. Payment Terms</strong></p>
 
@@ -105,7 +105,7 @@
 
                 <p>By clicking on the button bellow, I accept the terms and conditions stated above.</p>
             </ul>
-            <button><a href="ican-form.php">Accept</a></button>
+            <button><a href="ican-form.php" class="py-5">Accept</a></button>
         </div>
     </div>
 </body>

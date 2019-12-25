@@ -191,7 +191,7 @@
 
                                 <h5 class="mt-5 font-weight-bold" style="text-decoration: underline">COURSES REGISTERED</h5>
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">FOUNDATION</h6>
-                                <div class="row">
+                                <div class="row" id="ican-foundation-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="taxation" id="taxation">
                                         <label for="taxation" class="mr-3">TAXATION</label> <span id="taxationPrice"> </span>
@@ -215,7 +215,7 @@
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">SKILLS</h6>
-                                <div class="row">
+                                <div class="row" id="ican-skills-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="financial_reporting" id="financialReporting">
                                         <label for="financial reporting" class="mr-3">FINANCIAL REPORTING</label> <span id="financialReportingPrice"> </span>
@@ -239,7 +239,7 @@
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROFESSIONAL</h6>
-                                <div class="row">
+                                <div class="row" id="ican-professional-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="corporate_reporting" id="corporateReporting">
                                         <label for="corporate reporting" class="mr-3">CORPORATE REPORTING</label> <span id="corporateReportingPrice"> </span>
@@ -263,23 +263,24 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-md-4 mb-3 courses-selected">
+                                    <div class="col-md-4 mb-3 courses-selected" id="foundation-count">
                                         <h6>FOUNDATION</h6>
-                                        <p>Number of papers: </p>
+                                        <p>Number of papers: <span id="ican-foundation-papers">0</span> </p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>SKILLS</h6>
-                                        <p>Number of papers: </p>
+                                        <p>Number of papers: <span id="ican-skills-papers">0</span>  </p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>PROFESSIONAL</h6>
-                                        <p>Number of papers: </p>
+                                        <p>Number of papers: <span id="ican-professional-papers">0</span>  </p>
                                     </div>
-                                    <div class="col-md-3 mb-3 courses-selected">
+                                    <div class="col-md-3 mb-3 courses-selected" id="ican-total-amount-selected">
                                         <h6>TOTAL AMOUNT (₦)</h6>
-                                        <p>Number of papers: </p>
+                                        <p id="ican-total-amount">0</p>
+                                        <p>Number of papers: <span id="ican-total-papers">0</span>  </p>
                                     </div>
                                 </div>
 
@@ -400,13 +401,14 @@
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
                                         <label class="form-check-label" for="validCheck3">
-                                            I have read and agreed to <a href="terms.php"> terms and conditions</a>
+                                            <strong>I have read and agreed to the</strong><a href="terms.php" class="pl-1"> terms and conditions</a>
                                         </label>
                                         <div class="error" id="termsErr"></div>
                                     </div>
-                                </div>
+                                </div><br>
 
-                                <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+                                <button class="btn btn-dark btn-lg btn-block" type="btn"><a href="ican-invoice.php">Proceed To Check Out</a></button>
+                                <!-- <a href="ican-invoice.php"><button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button></a> -->
                             </form>
                         </div>
                     </div>

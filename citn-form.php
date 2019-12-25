@@ -191,7 +191,7 @@
 
                                 <h5 class="mt-5 font-weight-bold" style="text-decoration: underline">COURSES REGISTERED</h5>
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">FOUNDATION</h6>
-                                <div class="row">
+                                <div class="row" id="citn-foundation-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="principle" id="principle_taxation">
                                         <label for="principle" class="mr-3">PRINCIPLES OF TAXATION</label> <span id="principleTaxationPrice"> </span>
@@ -211,7 +211,7 @@
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX I</h6>
-                                <div class="row">
+                                <div class="row" id="citn-prof-tax-i-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="quantitatives_tech" id="quantitativesTech">
                                         <label for="quantitatives tech" class="mr-3">QUANTITATIVES TECH</label> <span id="quantitativesTechPrice"> </span>
@@ -231,7 +231,7 @@
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX II</h6>
-                                <div class="row">
+                                <div class="row" id="citn-prof-tax-ii-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="taxation_e-commerce" id="taxationE-commerce">
                                         <label for="taxation of e-commerce" class="mr-3">TAXATION OF E-COMMERCE</label> <span id="taxationE-commercePrice"> </span>
@@ -251,7 +251,7 @@
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX III</h6>
-                                <div class="row">
+                                <div class="row" id="citn-prof-tax-iii-courses-selected">
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="oil_taxation" id="oilTaxation">
                                         <label for="oil and gas taxation" class="mr-3">OIL, GAS TAXATION</label> <span id="oilTaxationPrice"> </span>
@@ -271,25 +271,30 @@
                                 </div>
 
                                 <div class="row">
-                                    <div class="col-md-4 mb-3 courses-selected">
+                                    <div class="col-md-4 mb-3 courses-selected" id="foundation-count">
                                        <h6>FOUNDATION</h6>
-                                       <p>Number of papers: </p>
+                                       <p>Number of papers: <span id="citn-foundation-papers">0</span></p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>SKILLS</h6>
-                                        <p>Number of papers: </p>
+                                        <h6>PROF TAX I</h6>
+                                        <p>Number of papers: <span id="citn-prof-tax-i-papers">0</span></p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>PROFESSIONAL</h6>
-                                        <p>Number of papers: </p>
+                                        <h6>PROF TAX II</h6>
+                                        <p>Number of papers: <span id="citn-prof-tax-ii-papers">0</span></p>
                                     </div>
-                                    <div class="col-md-3 mb-3 courses-selected">
-                                        <h6>TOTAL AMOUNT (₦)</h6>
-                                        <p>Number of papers: </p>
+
+                                    <div class="col-md-4 mb-3 courses-selected">
+                                        <h6>PROF TAX III</h6>
+                                        <p>Number of papers: <span id="citn-prof-tax-iii-papers">0</span></p>
                                     </div>
                                 </div>
+                                        <div class="col-md-3 mb-3 courses-selected" id="total-courses-selected">
+                                            <h6>TOTAL AMOUNT (₦)</h6> <p id="amount">50000</p>
+                                            <p>Number of papers: <span id="citn-total-papers">0</span></p>
+                                        </div>
 
                                 <h6 class="mt-5 font-weight-bold text-center" style="text-decoration: underline">HOW YOU GOT TO KNOW ABOUT THIS TRAINING</h6>
 
@@ -403,7 +408,19 @@
                                     </div>
                                 </div>
                                 <hr class="mb-4">
-                                <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button>
+
+                                <div class="form-inline">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
+                                        <label class="form-check-label" for="validCheck3">
+                                            <strong>I have read and agreed to the</strong> <a href="terms.php" class="pl-1">terms and conditions</a>
+                                        </label>
+                                        <div class="error" id="termsErr"></div>
+                                    </div>
+                                </div><br>
+<!-- 
+                                <button class="btn btn-primary btn-lg btn-block" type="submit"><a href="citn-invoice.php"> Continue to checkout</a></button> -->
+                                <a href="citn-invoice.php"><button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button></a>
                             </form>
                         </div>
                     </div>
