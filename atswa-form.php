@@ -253,26 +253,28 @@
                                 <div class="row">
                                     <div class="col-md-4 mb-3 courses-selected">
                                        <h6>ATSWA I</h6>
-                                       <p>Number of papers: <span id="atswa-i-papers">0</span></p>
+                                       <p class="font-weight-bold">Number of papers: <span id="atswa-i-papers">0</span></p>
                                        <h6>AMOUNT (₦)</h6>
-                                       <p id="atswa-i-amount">0</p>
+                                       <p class="font-weight-bold" id="atswa-i-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>ATSWA II</h6>
-                                        <p>Number of papers:<span id="atswa-ii-papers">0</span></p>
-                                        <p>Amount: <span id="atswa-ii-amount">0</span></p>
+                                        <p class="font-weight-bold">Number of papers:<span id="atswa-ii-papers">0</span></p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="atswa-ii-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>ATSWA III</h6>
-                                        <p>Number of papers:<span id="atswa-iii-papers">0</span></p>
-                                        <p>Amount: <span id="atswa-iii-amount">0</span></p>
+                                        <p class="font-weight-bold">Number of papers:<span id="atswa-iii-papers">0</span></p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="atswa-iii-amount">0</p>
                                     </div>
                                     <div class="col-md-3 mb-3 courses-selected" id="ican-total-amount-selected">
                                         <h6>TOTAL AMOUNT (₦)</h6>
-                                        <p id="atswa-total-amount">0</p>
-                                        <p>Number of papers: <span id="atswa-total-papers">0</span>  </p>
+                                        <p class="font-weight-bold" id="atswa-total-amount">0</p>
+                                        <p class="font-weight-bold">Number of papers: <span id="atswa-total-papers">0</span>  </p>
                                     </div>
                                 </div>
 

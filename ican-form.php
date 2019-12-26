@@ -265,22 +265,28 @@
                                 <div class="row">
                                     <div class="col-md-4 mb-3 courses-selected" id="foundation-count">
                                         <h6>FOUNDATION</h6>
-                                        <p>Number of papers: <span id="ican-foundation-papers">0</span> </p>
+                                        <p class="font-weight-bold">Number of papers: <span id="ican-foundation-papers">0</span> </p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="ican-foundation-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>SKILLS</h6>
-                                        <p>Number of papers: <span id="ican-skills-papers">0</span>  </p>
+                                        <p class="font-weight-bold">Number of papers: <span id="ican-skills-papers">0</span>  </p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="ican-skills-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>PROFESSIONAL</h6>
-                                        <p>Number of papers: <span id="ican-professional-papers">0</span>  </p>
+                                        <p class="font-weight-bold">Number of papers: <span id="ican-professional-papers">0</span>  </p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="ican-professional-amount">0</p>
                                     </div>
                                     <div class="col-md-3 mb-3 courses-selected" id="ican-total-amount-selected">
                                         <h6>TOTAL AMOUNT (₦)</h6>
-                                        <p id="ican-total-amount">0</p>
-                                        <p>Number of papers: <span id="ican-total-papers">0</span>  </p>
+                                        <p class="font-weight-bold" id="ican-total-amount">0</p>
+                                        <p class="font-weight-bold">Number of papers: <span id="ican-total-papers">0</span>  </p>
                                     </div>
                                 </div>
 

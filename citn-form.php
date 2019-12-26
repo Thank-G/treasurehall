@@ -253,48 +253,58 @@
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX III</h6>
                                 <div class="row" id="citn-prof-tax-iii-courses-selected">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="oil_taxation" id="oilTaxation">
+                                        <input type="checkbox" name="oil_taxation" id="oilTaxation" disabled>
                                         <label for="oil and gas taxation" class="mr-3">OIL, GAS TAXATION</label> <span id="oilTaxationPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="solid_taxation" id="solidTaxation">
+                                        <input type="checkbox" name="solid_taxation" id="solidTaxation" disabled>
                                         <label for="solid minerals taxation" class="mr-3">SOLID MINERALS TAXATION</label> <span id="solidTaxationPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="tax_management" id="taxManagement">
+                                        <input type="checkbox" name="tax_management" id="taxManagement" disabled>
                                         <label for="tax management" class="mr-3">TAX MANAGEMENT</label> <span id="taxManagementPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="practical_taxation" id="practicalTaxation">
+                                        <input type="checkbox" name="practical_taxation" id="practicalTaxation" disabled>
                                         <label for="practical cases in taxation" class="mr-3">PRACTICAL CASES IN TAXATION</label> <span id="practicalTaxationPrice"> </span>
                                     </div>
                                 </div>
 
                                 <div class="row">
                                     <div class="col-md-4 mb-3 courses-selected" id="foundation-count">
-                                       <h6>FOUNDATION</h6>
-                                       <p>Number of papers: <span id="citn-foundation-papers">0</span></p>
+                                        <h6>FOUNDATION</h6>
+                                        <p class="font-weight-bold">Number of papers: <span id="citn-foundation-papers">0</span></p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="citn-foundation-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>PROF TAX I</h6>
-                                        <p>Number of papers: <span id="citn-prof-tax-i-papers">0</span></p>
+                                        <p class="font-weight-bold">Number of papers: <span id="citn-prof-tax-i-papers">0</span></p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="citn-prof-tax-i-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>PROF TAX II</h6>
-                                        <p>Number of papers: <span id="citn-prof-tax-ii-papers">0</span></p>
+                                        <p class="font-weight-bold">Number of papers: <span id="citn-prof-tax-ii-papers">0</span></p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="citn-prof-tax-ii-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
                                         <h6>PROF TAX III</h6>
-                                        <p>Number of papers: <span id="citn-prof-tax-iii-papers">0</span></p>
+                                        <p class="font-weight-bold">Number of papers: <span id="citn-prof-tax-iii-papers">0</span></p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="citn-prof-tax-iii-amount">0</p>
+                                    </div>
+                                    <div class="col-md-3 mb-3 courses-selected" id="total-courses-selected">
+                                        <h6>TOTAL AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="citn-total-amount">0</p>
+                                        <p class="font-weight-bold">Number of papers: <span id="citn-total-papers">0</span>  </p>
                                     </div>
                                 </div>
-                                        <div class="col-md-3 mb-3 courses-selected" id="total-courses-selected">
-                                            <h6>TOTAL AMOUNT (₦)</h6> <p id="amount">50000</p>
-                                            <p>Number of papers: <span id="citn-total-papers">0</span></p>
-                                        </div>
+                               
 
                                 <h6 class="mt-5 font-weight-bold text-center" style="text-decoration: underline">HOW YOU GOT TO KNOW ABOUT THIS TRAINING</h6>
 
