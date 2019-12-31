@@ -16,7 +16,23 @@
         <div class="row">
             <!-- SideBar -->
             <div class="col-md-3 p-3 sidebar text-white">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dignissimos accusamus rem quia est ipsam exercitationem quisquam qui aut eaque error quasi corporis itaque laudantium, consequatur amet blanditiis? Quasi, at.</p>
+            <h6 class="text-center">PLEASE MAKE YOUR PAYMENT USING THE FOLLOWING ACCOUNT DETAILS :</h6>
+                <p class="text-center pt-3">1. TREASUREHALL TRAINING</p>
+                <p class="text-center">ZENITH BANK</p>
+                <p class="text-center">A/C 1014002945</p>
+
+                <p class="text-center pt-3">2. TREASUREHALL TRAINING</p>
+                <p class="text-center">GT BANK</p>
+                <p class="text-center">A/C 0168432779</p>
+
+                <p class="text-center pt-3">3. TREASUREHALL TRAINING</p>
+                <p class="text-center">ACCESS BANK</p>
+                <p class="text-center">A/C 0700320475</p>
+
+                <p class="text-center pt-3">4. TREASUREHALL TRAINING</p>
+                <p class="text-center">FIDELITY BANK</p>
+                <p class="text-center">A/C 4011337253</p>
+
             </div> <!-- SideBar -->
 
             <!-- Main Content -->
@@ -181,7 +197,7 @@
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>1 Paper: <span class="font-weight-bold text-muted" id="atswa-iii-one-paper"></span></li>
                                 <li>2 Papers: <span class="font-weight-bold text-muted" id="atswa-iii-two-papers"></span></li>
-                                <li>3 Papers: <span class="font-weight-bold text-muted" id="atswa-iii-three-papers"></span></li>
+                                <li>3 Papers: <span class="font-weight-bold text-muted" id="atswa-iii-three-papers"></span><li>
                                 <li>4 Papers: <span class="font-weight-bold text-muted" id="atswa-iii-four-papers"></span></li>
                             </ul>
                             <a href="atswa-form.php" class="btn btn-lg btn-block btn-outline-primary">Get started</a>

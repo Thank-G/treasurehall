@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ICAN Registration Form</title>
+    <title>MISCELANEOUS PROGRAMS REGISTRATION FORM</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -16,43 +16,17 @@
         <div class="row">
             <!-- SideBar -->
             <div class="col-md-3 p-3 sidebar text-white">
-            <h4 class="text-center py-2" style="text-decoration: underline">ICAN TUTORIAL FEES</h4>
-            <h6 class="text-center">PLEASE MAKE YOUR PAYMENT USING THE FOLLOWING ACCOUNT DETAILS :</h6>
-                <p class="text-center pt-3">1. TREASUREHALL TRAINING</p>
-                <p class="text-center">ZENITH BANK</p>
-                <p class="text-center">A/C 1014002945</p>
+                <h4 class="text-center py-2" style="text-decoration: underline">MISCELANEOUS EXAM TUTORIAL</h4>
 
-                <p class="text-center pt-3">2. TREASUREHALL TRAINING</p>
-                <p class="text-center">GT BANK</p>
-                <p class="text-center">A/C 0168432779</p>
+                <h6 class="text-center py-1">NOTE FOR STUDENTS :</h6>
+                <P class="text-center pt-2 py-1"> “These are special programs, the fees and duration would be provided on request and based on the trainees circumstances”.</P>
+                <h6 class="text-center">For enquiry, please call.</h6>
+                <p class="text-center">08063899367</p>
+                <p class="text-center">08030915072</p>
+                <p class="text-center">07089676799</p>
 
-                <p class="text-center pt-3">3. TREASUREHALL TRAINING</p>
-                <p class="text-center">ACCESS BANK</p>
-                <p class="text-center">A/C 0700320475</p>
 
-                <p class="text-center pt-3">4. TREASUREHALL TRAINING</p>
-                <p class="text-center">FIDELITY BANK</p>
-                <p class="text-center">A/C 4011337253</p>
-                
-                <h6 class="text-center py-3">FREE ITEMS :</h6>
-                <p class="text-center pt-3">1. BRANDED NOTEBOOKS</p>
-                <p class="text-center">2. BRANDED PEN</p>
-                <p class="text-center">3. CAREER AND STUDY ADVISORY</p>
-                <p class="text-center">4. ENLISTMENT ON JOB/IT PLACEMENT</p>
-                <p class="text-center">5. FREE READING SPACE EVERY DAY OF THE WEEK</p>
-                <p class="text-center">6. PROCESING OF ICAN SCHOLARSHIP (FOR PRIZE WINNERS)</p>
 
-                <h6 class="text-center py-3">SUBSIDIZED/SUPPORT ITEMS :</h6>
-                <p class="text-center pt-3">1. EXEMPTION PROCESSING FOR ND HOLDERS</p>
-                <p class="text-center">2. STUDENTS REGISTRATION WITH ATSWA/ICAN</p>
-                <p class="text-center">3. EXAM REGISTRATION</p>
-                <p class="text-center">4. PHOTOCOPY</p>
-                <p class="text-center">5. MEAL</p>
-
-                <h6 class="text-center py-1">60% DOWN PAYMENT, 40% NEXT 30 DAYS.</h6>
-                <h6 class="text-center py-1">ADMIN FEE : N5,000 ONLY</h6>
-                <h6 class="text-center py-1">NO PART PAYMENT AFTER 2 MONTHS OF THE DIET. </h6>
-                <h6 class="text-center py-1">REFUND OF 50% OF TUTORIAL FEE TO PRIZE WINNERS</h6>
 
             </div> <!-- SideBar -->
 
@@ -116,7 +90,7 @@
                             </form>
                         </div> -->
                         <div class="col-md-12 order-md-1">
-                            <h3 class="mb-3 font-weight-bold text-center">ICAN REGISTRATION FORM</h3>
+                            <h3 class="mb-3 font-weight-bold text-center">MISCELANEOUS PROGRAMS REGISTRATION FORM</h3>
                             <form class="needs-validation" novalidate>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -137,7 +111,7 @@
 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="icanRegNum" placeholder="ICAN REGISTRATION NUMBER" value="" name="first_name" required>
+                                        <input type="text" class="form-control" id="miscelaneousRegNum" placeholder="MISCELANEOUS EXAM REGISTRATION NUMBER" value="" name="first_name" required>
                                         <div class="invalid-feedback">
                                             Valid ican registration number is required.
                                         </div>
@@ -152,17 +126,6 @@
 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <label for="diet" class="font-weight-bold text-muted mr-3">DIET:</label>
-                                        <input type="radio" name="weekday" id="weekday"> WEEKDAY
-                                        <input type="radio" name="weekday" id="weekend"> WEEKEND
-                                        <div class="invalid-feedback">
-                                            Valid is required.
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
                                         <label for="gender" class="font-weight-bold text-muted mr-3">GENDER</label>
                                         <input type="radio" name="gender" id="genderMale"> MALE
                                         <input type="radio" name="gender" id="genderFemale"> FEMALE
@@ -170,6 +133,7 @@
                                             Valid is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-6 mb-3">
                                         <label for="status" class="font-weight-bold text-muted mr-3">MARITAL STATUS</label>
                                         <input type="radio" name="status" id="single"> Single
@@ -187,6 +151,7 @@
                                             Valid phone number is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-6 mb-3">
                                         <input type="text" class="form-control" id="otherNumber" placeholder="OTHER" name="other_number">
                                         <div class="invalid-feedback">
@@ -203,6 +168,7 @@
                                             Valid sponsor name is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-4 mb-3">
                                         <label for="self_sponsor" class="font-weight-bold text-muted mr-3">SELF SPONSOR</label>
                                         <input type="checkbox" name="self_sponsor" id="selfSponsor">
@@ -237,106 +203,62 @@
                                     <input type="text" class="form-control" id="qualifications" placeholder="QUALIFICATIONS" required>
                                 </div>
 
-                                <h5 class="mt-5 font-weight-bold" style="text-decoration: underline">COURSES REGISTERED</h5>
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">FOUNDATION</h6>
-                                <div class="row" id="ican-foundation-courses-selected">
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="taxation" id="taxation">
-                                        <label for="taxation" class="mr-3">TAXATION</label> <span id="taxationPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_finance" id="businessFinance">
-                                        <label for="business finance" class="mr-3">BUSINESS, MGT AND FINANCE</label> <span id="businessFinancePrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="finacial_accounting" id="financialAcct">
-                                        <label for="financial accounting" class="mr-3">FINANCIAL ACCOUNTING</label> <span id="financialAcctPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="management_information" id="managementInfo">
-                                        <label for="management information" class="mr-3">MANAGEMENT INFORMATION</label> <span id="managementInfoPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_law" id="businessLaw">
-                                        <label for="business law" class="mr-3">BUSINESS LAW</label> <span id="businessLawPrice"> </span>
-                                    </div>
-                                </div>
-
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">SKILLS</h6>
-                                <div class="row" id="ican-skills-courses-selected">
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="financial_reporting" id="financialReporting">
-                                        <label for="financial reporting" class="mr-3">FINANCIAL REPORTING</label> <span id="financialReportingPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="audit_insurance" id="auditInsurance">
-                                        <label for="audit and insurance" class="mr-3">AUDIT AND INSURANCE</label> <span id="auditInsurancePrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="performance_mgt" id="performanceMgt">
-                                        <label for="performance management" class="mr-3">PERFORMANCE MANAGEMENT</label> <span id="performanceMgtPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="public_sector" id="publicSector">
-                                        <label for="public sector accounting and finance" class="mr-3">PUBLIC SECTOR ACCT AND FINANCE</label> <span id="publicSectorPrice"> </span>
-                                    </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="corporate_strategic" id="corporateMgt">
-                                        <label for="corporate strategic management & ethics" class="mr-3">CORPORATE STRATEGIC MGT AND ETHICS</label> <span id="corporateMgtPrice"> </span>
-                                    </div>
-                                </div>
-
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROFESSIONAL</h6>
-                                <div class="row" id="ican-professional-courses-selected">
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="corporate_reporting" id="corporateReporting">
-                                        <label for="corporate reporting" class="mr-3">CORPORATE REPORTING</label> <span id="corporateReportingPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="adv_insurance" id="advInsurance">
-                                        <label for="adv audit and insurance" class="mr-3">ADV. AUDIT AND ASSURANCE</label> <span id="advInsurancePrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="strategic_finance" id="strategicFinMgt">
-                                        <label for="strategic finance management" class="mr-3">STRATEGIC FIN. MGT</label> <span id="strategicFinMgtPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="advance_taxtation" id="advancedTaxation">
-                                        <label for="advanced taxation" class="mr-3">ADVANCED TAXATION</label> <span id="advancedTaxationPrice"> </span>
-                                    </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="case_study" id="caseStudy">
-                                        <label for="case study" class="mr-3">CASE STUDY</label> <span id="caseStudyPrice"> </span>
-                                    </div>
-                                </div>
-
+                                
                                 <div class="row">
-                                    <div class="col-md-4 mb-3 courses-selected" id="foundation-count">
-                                        <h6>FOUNDATION</h6>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-foundation-papers">0</span> </p>
-                                        <h6>AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-foundation-amount">0</p>
-                                    </div>
-
-                                    <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>SKILLS</h6>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-skills-papers">0</span>  </p>
-                                        <h6>AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-skills-amount">0</p>
-                                    </div>
-
-                                    <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>PROFESSIONAL</h6>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-professional-papers">0</span>  </p>
-                                        <h6>AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-professional-amount">0</p>
-                                    </div>
-                                    <div class="col-md-3 mb-3 courses-selected" id="ican-total-amount-selected">
-                                        <h6>TOTAL AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-total-amount">0</p>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-total-papers">0</span>  </p>
+                                    <div class="col-md-12 pt-3 pb-1">
+                                        <label for="options" class="font-weight-bold text-muted mr-3">OPTIONS:</label>
+                                        <input type="radio" name="weekday" id="weekday" class="mr-1 ml-1"> WEEKDAYS (MONDAYS, WEDNESDAYS & FRIDAYS)
+                                        <input type="radio" name="weekday" id="weekend" class="ml-1 mr-1"> WEEKENDS (4 SATURDAYS)
+                                        <div class="invalid-feedback">
+                                            Valid is required.
+                                        </div>
                                     </div>
                                 </div>
+
+                                <h5 class="mt-3 font-weight-bold pb-3" style="text-decoration: underline">COURSES REGISTERED</h5>
+                                <div class="row" id="miscelaneous-courses-selected">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="sage" id="sage">
+                                        <label for="sage" class="mr-3">SAGE</label> <span id="sagePrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="excel" id="excel">
+                                        <label for="excel" class="mr-3">EXCEL</label> <span id="excelPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="quickbooks" id="quickbooks">
+                                        <label for="quickbooks" class="mr-3">QUICKBOOKS</label> <span id="quickbooksPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="cisa" id="cisa">
+                                        <label for="cisa" class="mr-3">CISA</label> <span id="cisaPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="f_modelling" id="fModelling">
+                                        <label for="f modelling" class="mr-3">F/MODELLING</label> <span id="fModellingPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="power_point" id="powerPoint">
+                                        <label for="power point" class="mr-3">POWER POINT</label> <span id="powerPointPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="soft_skills" id="softSkills">
+                                        <label for="soft skills" class="mr-3">SOFT SKILLS</label> <span id="softSkillsPrice"> </span>
+                                    </div>
+                                </div>
+
+                                <div class="row just-center">
+                                    <div class="col-md-4 mb-3 courses-selected" id="miscelaneous-count">
+                                        <h6>MISCELANEOUS COURSES</h6>
+                                        <p class="font-weight-bold py-2">Number of papers: <span id="miscelaneous-papers">0</span></p>
+                                    </div>
+
+                                    <div class="col-md-4 mb-3 courses-selected" id="total-courses-selected">
+                                        <h6>TOTAL PAPERS</h6>
+                                        <p class="font-weight-bold py-2">Number of papers: <span id="miscelaneous-total-papers">0</span> </p>
+                                    </div>
+                                </div>
+
 
                                 <h6 class="mt-5 font-weight-bold text-center" style="text-decoration: underline">HOW YOU GOT TO KNOW ABOUT THIS TRAINING</h6>
 
@@ -357,31 +279,32 @@
                                     </div>
                                 </div>
                                 <div class="error" id="paymentErr"></div>
+
                                 <div class="form-inline">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
                                         <label class="form-check-label" for="validCheck3">
-                                            <strong>I have read and agreed to the</strong><a href="terms.php" class="pl-1"> terms and conditions</a>
+                                            <strong>I have read and agreed to the</strong> <a href="terms.php" class="pl-1">terms and conditions</a>
                                         </label>
                                         <div class="error" id="termsErr"></div>
                                     </div>
                                 </div><br>
-
+                                <!-- 
+                                <button class="btn btn-primary btn-lg btn-block" type="submit"><a href="miscelaneous-invoice.php"> Continue to checkout</a></button> -->
                                 <button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button>
-                                <!-- <a href="ican-invoice.php"><button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button></a> -->
                             </form>
                         </div>
                     </div>
                 </div> <!-- Main Content -->
             </div>
         </div>
+    </div>
 
-
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="./js/ican.js"></script>
-        <script src="./js/validation.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="./js/miscelaneous.js"></script>
+    <script src="./js/validation.js"></script>
 </body>
 
 </html>

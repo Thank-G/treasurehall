@@ -15,7 +15,40 @@
     <div class="container-fluid">
         <div class="row">
             <!-- SideBar -->
-            <div class="col-md-3 p-3 sidebar">
+            <div class="col-md-3 p-3 sidebar text-white">
+            <h4 class="text-center py-2" style="text-decoration: underline">ATS TUTORIAL FEES</h4>
+            <h6 class="text-center">PLEASE MAKE YOUR PAYMENT USING THE FOLLOWING ACCOUNT DETAILS :</h6>
+                <p class="text-center pt-3">1. TREASUREHALL TRAINING</p>
+                <p class="text-center">ZENITH BANK</p>
+                <p class="text-center">A/C 1014002945</p>
+
+                <p class="text-center pt-3">2. TREASUREHALL TRAINING</p>
+                <p class="text-center">GT BANK</p>
+                <p class="text-center">A/C 0168432779</p>
+
+                <p class="text-center pt-3">3. TREASUREHALL TRAINING</p>
+                <p class="text-center">ACCESS BANK</p>
+                <p class="text-center">A/C 0700320475</p>
+
+            <h6 class="text-center py-3">FREE ITEMS :</h6>
+                <p class="text-center pt-3">1. BRANDED NOTEBOOKS</p>
+                <p class="text-center">2. BRANDED PEN</p>
+                <p class="text-center">3. CAREER AND STUDY ADVISORY</p>
+                <p class="text-center">4. ENLISTMENT ON JOB/IT PLACEMENT</p>
+                <p class="text-center">5. FREE READING SPACE EVERY DAY OF THE WEEK</p>
+                <p class="text-center">6. PROCESING OF ICAN SCHOLARSHIP (FOR PRIZE WINNERS)</p>
+
+                <h6 class="text-center py-3">SUBSIDIZED/SUPPORT ITEMS :</h6>
+                <p class="text-center pt-3">1. EXEMPTION PROCESSING FOR ND HOLDERS</p>
+                <p class="text-center">2. STUDENTS REGISTRATION WITH ATSWA/ICAN</p>
+                <p class="text-center">3. EXAM REGISTRATION</p>
+                <p class="text-center">4. PHOTOCOPY</p>
+                <p class="text-center">5. MEAL</p>
+
+                <h6 class="text-center py-1">60% DOWN PAYMENT, 40% NEXT 30 DAYS.</h6>
+                <h6 class="text-center py-1">ADMIN FEE : N3,000 ONLY</h6>
+                <h6 class="text-center py-1">NO PART PAYMENT AFTER 2 MONTHS OF THE DIET. </h6>
+                <h6 class="text-center py-1">REFUND OF 50% OF TUTORIAL FEE TO PRIZE WINNERS</h6>
 
             </div> <!-- SideBar -->
 
@@ -109,6 +142,17 @@
                                         <input type="text" class="form-control" id="nyscCode" placeholder="NYSC GM/CODE" value="" name="last_name" required>
                                         <div class="invalid-feedback">
                                             Valid nysc gm/code is required.
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
+                                        <label for="diet" class="font-weight-bold text-muted mr-3">DIET:</label>
+                                        <input type="radio" name="weekday" id="weekday"> WEEKDAY
+                                        <input type="radio" name="weekday" id="weekend"> WEEKEND
+                                        <div class="invalid-feedback">
+                                            Valid is required.
                                         </div>
                                     </div>
                                 </div>
@@ -298,99 +342,6 @@
                                 </div>
                                 <div class="error" id="paymentErr"></div>
 
-
-
-                                <div class="row py-3">
-                                    <div class="col-md-5 mb-3">
-                                        <label for="country">Country</label>
-                                        <select class="custom-select d-block w-100" id="country" required>
-                                            <option value="">Choose...</option>
-                                            <option>United States</option>
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            Please select a valid country.
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <label for="state">State</label>
-                                        <select class="custom-select d-block w-100" id="state" required>
-                                            <option value="">Choose...</option>
-                                            <option>California</option>
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            Please provide a valid state.
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 mb-3">
-                                        <label for="zip">Zip</label>
-                                        <input type="text" class="form-control" id="zip" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Zip code required.
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="mb-4">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="same-address">
-                                    <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
-                                </div>
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="save-info">
-                                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
-                                </div>
-                                <hr class="mb-4">
-
-                                <h4 class="mb-3">Payment</h4>
-
-                                <div class="d-block my-3">
-                                    <div class="custom-control custom-radio">
-                                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                                        <label class="custom-control-label" for="credit">Credit card</label>
-                                    </div>
-                                    <div class="custom-control custom-radio">
-                                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                                        <label class="custom-control-label" for="debit">Debit card</label>
-                                    </div>
-                                    <div class="custom-control custom-radio">
-                                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                                        <label class="custom-control-label" for="paypal">PayPal</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="cc-name">Name on card</label>
-                                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                                        <small class="text-muted">Full name as displayed on card</small>
-                                        <div class="invalid-feedback">
-                                            Name on card is required
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="cc-number">Credit card number</label>
-                                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Credit card number is required
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-3 mb-3">
-                                        <label for="cc-expiration">Expiration</label>
-                                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Expiration date required
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 mb-3">
-                                        <label for="cc-cvv">CVV</label>
-                                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Security code required
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="mb-4">
-
                                 <div class="form-inline">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
@@ -402,7 +353,7 @@
                                 </div><br>
                     
                                 <!-- <button class="btn btn-primary btn-lg btn-block" type="submit">Continue to checkout</button> -->
-                                <a href="atswa-invoice.php"><button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button></a>
+                                <button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button>
                             </form>
                         </div>
                     </div>
@@ -416,7 +367,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="./js/main.js"></script>
+        <script src="./js/atswa.js"></script>
         <script src="./js/validation.js"></script>
 </body>
 

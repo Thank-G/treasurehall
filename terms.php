@@ -13,10 +13,10 @@
     <div class="container">
         <div class="container">
             <h3 style=" color: blue;" class="pt-5 pb-3 text-center">STUDENT REGULATION AND CODE OF CONDUCT</h3>
-            <ul><strong>1.</strong> Students/Trainees are expected to exhibit professional behaviour while attending lectures. Any action
+            <p><strong>1.</strong> Students/Trainees are expected to exhibit professional behaviour while attending lectures. Any action
                 that generally interferes with the quality of tuition a class is receiving, which includes the use of
                 mobile telephones or other electronic devices, or any form of abusive verbal or written communication
-                may result in the withdrawal of Students/Trainees from the program.
+                may result in the withdrawal of Students/Trainees from the program.</p>
 
                <p><strong>2.</strong> Students/Trainees attending lectures at our tuition center may be required to sign in at the
                 reception desk or submit themselves for account reconciliation at any time. Failure to reconcile account

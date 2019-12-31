@@ -15,7 +15,29 @@
     <div class="container-fluid">
         <div class="row">
             <!-- SideBar -->
-            <div class="col-md-3 p-3 sidebar">
+            <div class="col-md-3 p-3 sidebar text-white">
+            <h4 class="text-center py-2" style="text-decoration: underline">CITN TUTORIAL FEES</h4>
+            <h6 class="text-center">PLEASE MAKE YOUR PAYMENT USING THE FOLLOWING ACCOUNT DETAILS :</h6>
+                <p class="text-center pt-3">1. TREASUREHALL TRAINING</p>
+                <p class="text-center">ZENITH BANK</p>
+                <p class="text-center">A/C 1014002945</p>
+
+                <p class="text-center pt-3">2. TREASUREHALL TRAINING</p>
+                <p class="text-center">GT BANK</p>
+                <p class="text-center">A/C 0168432779</p>
+
+                <p class="text-center pt-3">3. TREASUREHALL TRAINING</p>
+                <p class="text-center">ACCESS BANK</p>
+                <p class="text-center">A/C 0700320475</p>
+
+                <p class="text-center pt-3">4. TREASUREHALL TRAINING</p>
+                <p class="text-center">FIDELITY BANK</p>
+                <p class="text-center">A/C 4011337253</p>
+
+                <h6 class="text-center py-1">60% DOWN PAYMENT, 40% NEXT 30 DAYS.</h6>
+                <h6 class="text-center py-1">ADMIN FEE : N5,000 ONLY</h6>
+                <h6 class="text-center py-1">NO PART PAYMENT AFTER 2 MONTHS OF THE DIET. </h6>
+                <h6 class="text-center py-1">REFUND OF 50% OF TUTORIAL FEE TO PRIZE WINNERS</h6>
 
             </div> <!-- SideBar -->
 
@@ -115,6 +137,17 @@
 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
+                                        <label for="diet" class="font-weight-bold text-muted mr-3">DIET:</label>
+                                        <input type="radio" name="weekday" id="weekday"> WEEKDAY
+                                        <input type="radio" name="weekday" id="weekend"> WEEKEND
+                                        <div class="invalid-feedback">
+                                            Valid is required.
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6 mb-3">
                                         <label for="gender" class="font-weight-bold text-muted mr-3">GENDER</label>
                                         <input type="radio" name="gender" id="genderMale"> MALE
                                         <input type="radio" name="gender" id="genderFemale"> FEMALE
@@ -122,6 +155,7 @@
                                             Valid is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-6 mb-3">
                                         <label for="status" class="font-weight-bold text-muted mr-3">MARITAL STATUS</label>
                                         <input type="radio" name="status" id="single"> Single
@@ -139,6 +173,7 @@
                                             Valid phone number is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-6 mb-3">
                                         <input type="text" class="form-control" id="otherNumber" placeholder="OTHER" name="other_number">
                                         <div class="invalid-feedback">
@@ -155,6 +190,7 @@
                                             Valid sponsor name is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-4 mb-3">
                                         <label for="self_sponsor" class="font-weight-bold text-muted mr-3">SELF SPONSOR</label>
                                         <input type="checkbox" name="self_sponsor" id="selfSponsor">
@@ -207,7 +243,7 @@
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="economics" id="economics">
                                         <label for="economics" class="mr-3">ECONOMICS</label> <span id="economicsPrice"> </span>
-                                    </div>  
+                                    </div>
                                 </div>
 
                                 <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX I</h6>
@@ -250,26 +286,6 @@
                                     </div>
                                 </div>
 
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROF TAX III</h6>
-                                <div class="row" id="citn-prof-tax-iii-courses-selected">
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="oil_taxation" id="oilTaxation" disabled>
-                                        <label for="oil and gas taxation" class="mr-3">OIL, GAS TAXATION</label> <span id="oilTaxationPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="solid_taxation" id="solidTaxation" disabled>
-                                        <label for="solid minerals taxation" class="mr-3">SOLID MINERALS TAXATION</label> <span id="solidTaxationPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="tax_management" id="taxManagement" disabled>
-                                        <label for="tax management" class="mr-3">TAX MANAGEMENT</label> <span id="taxManagementPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="practical_taxation" id="practicalTaxation" disabled>
-                                        <label for="practical cases in taxation" class="mr-3">PRACTICAL CASES IN TAXATION</label> <span id="practicalTaxationPrice"> </span>
-                                    </div>
-                                </div>
-
                                 <div class="row">
                                     <div class="col-md-4 mb-3 courses-selected" id="foundation-count">
                                         <h6>FOUNDATION</h6>
@@ -292,19 +308,13 @@
                                         <p class="font-weight-bold" id="citn-prof-tax-ii-amount">0</p>
                                     </div>
 
-                                    <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>PROF TAX III</h6>
-                                        <p class="font-weight-bold">Number of papers: <span id="citn-prof-tax-iii-papers">0</span></p>
-                                        <h6>AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="citn-prof-tax-iii-amount">0</p>
-                                    </div>
                                     <div class="col-md-3 mb-3 courses-selected" id="total-courses-selected">
                                         <h6>TOTAL AMOUNT (₦)</h6>
                                         <p class="font-weight-bold" id="citn-total-amount">0</p>
-                                        <p class="font-weight-bold">Number of papers: <span id="citn-total-papers">0</span>  </p>
+                                        <p class="font-weight-bold">Number of papers: <span id="citn-total-papers">0</span> </p>
                                     </div>
                                 </div>
-                               
+
 
                                 <h6 class="mt-5 font-weight-bold text-center" style="text-decoration: underline">HOW YOU GOT TO KNOW ABOUT THIS TRAINING</h6>
 
@@ -326,99 +336,6 @@
                                 </div>
                                 <div class="error" id="paymentErr"></div>
 
-
-
-                                <div class="row">
-                                    <div class="col-md-5 mb-3">
-                                        <label for="country">Country</label>
-                                        <select class="custom-select d-block w-100" id="country" required>
-                                            <option value="">Choose...</option>
-                                            <option>United States</option>
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            Please select a valid country.
-                                        </div>
-                                    </div>
-                                    <div class="col-md-4 mb-3">
-                                        <label for="state">State</label>
-                                        <select class="custom-select d-block w-100" id="state" required>
-                                            <option value="">Choose...</option>
-                                            <option>California</option>
-                                        </select>
-                                        <div class="invalid-feedback">
-                                            Please provide a valid state.
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 mb-3">
-                                        <label for="zip">Zip</label>
-                                        <input type="text" class="form-control" id="zip" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Zip code required.
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="mb-4">
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="same-address">
-                                    <label class="custom-control-label" for="same-address">Shipping address is the same as my billing address</label>
-                                </div>
-                                <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="save-info">
-                                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
-                                </div>
-                                <hr class="mb-4">
-
-                                <h4 class="mb-3">Payment</h4>
-
-                                <div class="d-block my-3">
-                                    <div class="custom-control custom-radio">
-                                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
-                                        <label class="custom-control-label" for="credit">Credit card</label>
-                                    </div>
-                                    <div class="custom-control custom-radio">
-                                        <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
-                                        <label class="custom-control-label" for="debit">Debit card</label>
-                                    </div>
-                                    <div class="custom-control custom-radio">
-                                        <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
-                                        <label class="custom-control-label" for="paypal">PayPal</label>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 mb-3">
-                                        <label for="cc-name">Name on card</label>
-                                        <input type="text" class="form-control" id="cc-name" placeholder="" required>
-                                        <small class="text-muted">Full name as displayed on card</small>
-                                        <div class="invalid-feedback">
-                                            Name on card is required
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <label for="cc-number">Credit card number</label>
-                                        <input type="text" class="form-control" id="cc-number" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Credit card number is required
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-3 mb-3">
-                                        <label for="cc-expiration">Expiration</label>
-                                        <input type="text" class="form-control" id="cc-expiration" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Expiration date required
-                                        </div>
-                                    </div>
-                                    <div class="col-md-3 mb-3">
-                                        <label for="cc-cvv">CVV</label>
-                                        <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
-                                        <div class="invalid-feedback">
-                                            Security code required
-                                        </div>
-                                    </div>
-                                </div>
-                                <hr class="mb-4">
-
                                 <div class="form-inline">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
@@ -428,9 +345,9 @@
                                         <div class="error" id="termsErr"></div>
                                     </div>
                                 </div><br>
-<!-- 
+                                <!-- 
                                 <button class="btn btn-primary btn-lg btn-block" type="submit"><a href="citn-invoice.php"> Continue to checkout</a></button> -->
-                                <a href="citn-invoice.php"><button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button></a>
+                                <button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button>
                             </form>
                         </div>
                     </div>
@@ -439,12 +356,10 @@
         </div>
 
 
-
-
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="./js/main.js"></script>
+        <script src="./js/citn.js"></script>
         <script src="./js/validation.js"></script>
 </body>
 

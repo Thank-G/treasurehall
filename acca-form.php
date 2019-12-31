@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>ICAN Registration Form</title>
+    <title>ACCA Registration Form</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -16,8 +16,8 @@
         <div class="row">
             <!-- SideBar -->
             <div class="col-md-3 p-3 sidebar text-white">
-            <h4 class="text-center py-2" style="text-decoration: underline">ICAN TUTORIAL FEES</h4>
-            <h6 class="text-center">PLEASE MAKE YOUR PAYMENT USING THE FOLLOWING ACCOUNT DETAILS :</h6>
+                <h4 class="text-center py-2" style="text-decoration: underline">ACCA TUTORIAL FEES</h4>
+                <h6 class="text-center">PLEASE MAKE YOUR PAYMENT USING THE FOLLOWING ACCOUNT DETAILS :</h6>
                 <p class="text-center pt-3">1. TREASUREHALL TRAINING</p>
                 <p class="text-center">ZENITH BANK</p>
                 <p class="text-center">A/C 1014002945</p>
@@ -30,29 +30,22 @@
                 <p class="text-center">ACCESS BANK</p>
                 <p class="text-center">A/C 0700320475</p>
 
-                <p class="text-center pt-3">4. TREASUREHALL TRAINING</p>
-                <p class="text-center">FIDELITY BANK</p>
-                <p class="text-center">A/C 4011337253</p>
-                
-                <h6 class="text-center py-3">FREE ITEMS :</h6>
-                <p class="text-center pt-3">1. BRANDED NOTEBOOKS</p>
+                <h6 class="text-center pt-3">FREE ITEMS :</h6>
+                <p class="text-center">1. BRANDED NOTEBOOKS</p>
                 <p class="text-center">2. BRANDED PEN</p>
                 <p class="text-center">3. CAREER AND STUDY ADVISORY</p>
                 <p class="text-center">4. ENLISTMENT ON JOB/IT PLACEMENT</p>
                 <p class="text-center">5. FREE READING SPACE EVERY DAY OF THE WEEK</p>
                 <p class="text-center">6. PROCESING OF ICAN SCHOLARSHIP (FOR PRIZE WINNERS)</p>
 
-                <h6 class="text-center py-3">SUBSIDIZED/SUPPORT ITEMS :</h6>
-                <p class="text-center pt-3">1. EXEMPTION PROCESSING FOR ND HOLDERS</p>
-                <p class="text-center">2. STUDENTS REGISTRATION WITH ATSWA/ICAN</p>
-                <p class="text-center">3. EXAM REGISTRATION</p>
-                <p class="text-center">4. PHOTOCOPY</p>
-                <p class="text-center">5. MEAL</p>
+                <h6 class="text-center pt-3">SUBSIDIZED/SUPPORT ITEMS :</h6>
+                <p class="text-center">HARD COPY STUDY TEXTS, REVISION KITS, Q & A PACKS, ETC.</p>
 
+                <h6 class="text-center pt-2 py-1">10% DISCOUNT APPLIES TO EACH ADDITIONAL PAPER AFTER THE FIRST PAPER.</h6>
                 <h6 class="text-center py-1">60% DOWN PAYMENT, 40% NEXT 30 DAYS.</h6>
                 <h6 class="text-center py-1">ADMIN FEE : N5,000 ONLY</h6>
                 <h6 class="text-center py-1">NO PART PAYMENT AFTER 2 MONTHS OF THE DIET. </h6>
-                <h6 class="text-center py-1">REFUND OF 50% OF TUTORIAL FEE TO PRIZE WINNERS</h6>
+                <h6 class="text-center py-1">REFUND OF 30% OF TUTORIAL FEE TO PRIZE WINNERS</h6>
 
             </div> <!-- SideBar -->
 
@@ -116,7 +109,7 @@
                             </form>
                         </div> -->
                         <div class="col-md-12 order-md-1">
-                            <h3 class="mb-3 font-weight-bold text-center">ICAN REGISTRATION FORM</h3>
+                            <h3 class="mb-3 font-weight-bold text-center">ACCA REGISTRATION FORM</h3>
                             <form class="needs-validation" novalidate>
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
@@ -137,7 +130,7 @@
 
                                 <div class="row">
                                     <div class="col-md-6 mb-3">
-                                        <input type="text" class="form-control" id="icanRegNum" placeholder="ICAN REGISTRATION NUMBER" value="" name="first_name" required>
+                                        <input type="text" class="form-control" id="accaRegNum" placeholder="ACCA REGISTRATION NUMBER" value="" name="first_name" required>
                                         <div class="invalid-feedback">
                                             Valid ican registration number is required.
                                         </div>
@@ -170,6 +163,7 @@
                                             Valid is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-6 mb-3">
                                         <label for="status" class="font-weight-bold text-muted mr-3">MARITAL STATUS</label>
                                         <input type="radio" name="status" id="single"> Single
@@ -187,6 +181,7 @@
                                             Valid phone number is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-6 mb-3">
                                         <input type="text" class="form-control" id="otherNumber" placeholder="OTHER" name="other_number">
                                         <div class="invalid-feedback">
@@ -203,6 +198,7 @@
                                             Valid sponsor name is required.
                                         </div>
                                     </div>
+
                                     <div class="col-md-4 mb-3">
                                         <label for="self_sponsor" class="font-weight-bold text-muted mr-3">SELF SPONSOR</label>
                                         <input type="checkbox" name="self_sponsor" id="selfSponsor">
@@ -237,106 +233,126 @@
                                     <input type="text" class="form-control" id="qualifications" placeholder="QUALIFICATIONS" required>
                                 </div>
 
-                                <h5 class="mt-5 font-weight-bold" style="text-decoration: underline">COURSES REGISTERED</h5>
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">FOUNDATION</h6>
-                                <div class="row" id="ican-foundation-courses-selected">
+                                <h5 class="mt-5 font-weight-bold py-3" style="text-decoration: underline">COURSES REGISTERED</h5>
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">APPPLIED KNOWLEDGE LEVEL</h6>
+                                <div class="row" id="acca-applied-knowledge-level-courses-selected">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="taxation" id="taxation">
-                                        <label for="taxation" class="mr-3">TAXATION</label> <span id="taxationPrice"> </span>
+                                        <input type="checkbox" name="accountant" id="accountant_business">
+                                        <label for="accountant" class="mr-3">ACCOUNTANT IN BUSINESS</label> <span id="accountantBusinessPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_finance" id="businessFinance">
-                                        <label for="business finance" class="mr-3">BUSINESS, MGT AND FINANCE</label> <span id="businessFinancePrice"> </span>
+                                        <input type="checkbox" name="management" id="management_accounting">
+                                        <label for="management" class="mr-3">MANAGEMENT ACCOUNTING</label> <span id="managementAccountingPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="finacial_accounting" id="financialAcct">
-                                        <label for="financial accounting" class="mr-3">FINANCIAL ACCOUNTING</label> <span id="financialAcctPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="management_information" id="managementInfo">
-                                        <label for="management information" class="mr-3">MANAGEMENT INFORMATION</label> <span id="managementInfoPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="business_law" id="businessLaw">
-                                        <label for="business law" class="mr-3">BUSINESS LAW</label> <span id="businessLawPrice"> </span>
+                                        <input type="checkbox" name="financial" id="financial_accounting">
+                                        <label for="financial" class="mr-3">FINANCIAL ACCOUNTING</label> <span id="financialAccountingPrice"> </span>
                                     </div>
                                 </div>
 
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">SKILLS</h6>
-                                <div class="row" id="ican-skills-courses-selected">
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">APPLIED SKILLS LEVEL</h6>
+                                <div class="row" id="acca-applied-skills-level-courses-selected">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="corporate_business" id="corporateBusiness">
+                                        <label for="corporate & business law" class="mr-3">CORPORATE & BUSINESS LAW</label> <span id="corporateBusinessPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="performance_management" id="performanceManagement">
+                                        <label for="performance management" class="mr-3">PERFORMANCE MANAGEMENT</label> <span id="performanceManagementPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="acca_taxation" id="accaTaxation">
+                                        <label for="acca taxation" class="mr-3">TAXATION</label> <span id="accaTaxationPrice"> </span>
+                                    </div>
                                     <div class="col-md-6 mb-3">
                                         <input type="checkbox" name="financial_reporting" id="financialReporting">
                                         <label for="financial reporting" class="mr-3">FINANCIAL REPORTING</label> <span id="financialReportingPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="audit_insurance" id="auditInsurance">
-                                        <label for="audit and insurance" class="mr-3">AUDIT AND INSURANCE</label> <span id="auditInsurancePrice"> </span>
+                                        <input type="checkbox" name="audit_assurance" id="auditAssurance">
+                                        <label for="audit assurance" class="mr-3">AUDIT & ASSURANCE</label> <span id="auditAssurancePrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="performance_mgt" id="performanceMgt">
-                                        <label for="performance management" class="mr-3">PERFORMANCE MANAGEMENT</label> <span id="performanceMgtPrice"> </span>
-                                    </div>
-                                    <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="public_sector" id="publicSector">
-                                        <label for="public sector accounting and finance" class="mr-3">PUBLIC SECTOR ACCT AND FINANCE</label> <span id="publicSectorPrice"> </span>
-                                    </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="corporate_strategic" id="corporateMgt">
-                                        <label for="corporate strategic management & ethics" class="mr-3">CORPORATE STRATEGIC MGT AND ETHICS</label> <span id="corporateMgtPrice"> </span>
+                                        <input type="checkbox" name="financial_management" id="financialManagement">
+                                        <label for="financial management" class="mr-3">FINANCIAL MANAGEMENT</label> <span id="financialManagementPrice"> </span>
                                     </div>
                                 </div>
 
-                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">PROFESSIONAL</h6>
-                                <div class="row" id="ican-professional-courses-selected">
+                                <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">STRATEGIC PROFESSIONAL LEVEL</h6>
+                                <div class="row" id="acca-strategic-professional-level-courses-selected">
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="corporate_reporting" id="corporateReporting">
-                                        <label for="corporate reporting" class="mr-3">CORPORATE REPORTING</label> <span id="corporateReportingPrice"> </span>
+                                        <input type="checkbox" name="ethics_professional" id="ethicsModule" disabled>
+                                        <label for="ethics & professional module" class="mr-3">ETHICS & PROFESSIONAL MODULE</label> <span id="ethicsModulePrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="adv_insurance" id="advInsurance">
-                                        <label for="adv audit and insurance" class="mr-3">ADV. AUDIT AND ASSURANCE</label> <span id="advInsurancePrice"> </span>
+                                        <input type="checkbox" name="reporting" id="strategicBusinessReporting">
+                                        <label for="strategic business leader" class="mr-3">STRATEGIC BUSINESS REPORTING</label> <span id="strategicBusinessReportingPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="strategic_finance" id="strategicFinMgt">
-                                        <label for="strategic finance management" class="mr-3">STRATEGIC FIN. MGT</label> <span id="strategicFinMgtPrice"> </span>
+                                        <input type="checkbox" name="strategic_business_leader" id="strategicBusinessLeader">
+                                        <label for="strategic business leader" class="mr-3">STRATEGIC BUSINESS LEADER</label> <span id="strategicBusinessLeaderPrice"> </span>
                                     </div>
                                     <div class="col-md-6 mb-3">
-                                        <input type="checkbox" name="advance_taxtation" id="advancedTaxation">
-                                        <label for="advanced taxation" class="mr-3">ADVANCED TAXATION</label> <span id="advancedTaxationPrice"> </span>
+                                        <input type="checkbox" name="advanced_financial" id="advancedFinManagement">
+                                        <label for="advanced financial management" class="mr-3">ADVANCED FINANCIAL MANAGEMENT</label> <span id="advancedFinManagementPrice"> </span>
                                     </div>
-                                    <div class="col-md-12 mb-3">
-                                        <input type="checkbox" name="case_study" id="caseStudy">
-                                        <label for="case study" class="mr-3">CASE STUDY</label> <span id="caseStudyPrice"> </span>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="advanced_management" id="advancedManagement">
+                                        <label for="advanced performance management" class="mr-3">ADVANCED PERFORMANCE MANAGEMENT</label> <span id="advancedManagementPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="advanced_taxation" id="advancedTaxation" disabled>
+                                        <label for="advanced taxation and assurance" class="mr-3">ADVANCED TAXATION</label> <span id="advancedTaxationPrice"> </span>
+                                    </div>
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="advanced_audit" id="advancedAudit">
+                                        <label for="advanced audit and assurance" class="mr-3">ADVANCED AUDIT & ASSURANCE</label> <span id="advancedAuditPrice"> </span>
                                     </div>
                                 </div>
+                                <!-- <h6 class="mt-3 font-weight-bold" style="text-decoration: underline">ADVANCED TAXATION</h6>
+                                <div class="row" id="acca-advanced-taxation-courses-selected">
+                                    <div class="col-md-6 mb-3">
+                                        <input type="checkbox" name="advanced_audit" id="advancedAudit">
+                                        <label for="advanced audit and assurance" class="mr-3">ADVANCED AUDIT & ASSURANCE</label> <span id="advancedAuditPrice"> </span>
+                                    </div>
+                                </div> -->
 
                                 <div class="row">
-                                    <div class="col-md-4 mb-3 courses-selected" id="foundation-count">
-                                        <h6>FOUNDATION</h6>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-foundation-papers">0</span> </p>
+                                    <div class="col-md-4 mb-3 courses-selected" id="acca-applied-knowledge-level-count">
+                                        <h6>APPPLIED KNOWLEDGE LEVEL</h6>
+                                        <p class="font-weight-bold">Number of papers: <span id="acca-applied-knowledge-level-papers">0</span></p>
                                         <h6>AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-foundation-amount">0</p>
+                                        <p class="font-weight-bold" id="acca-applied-knowledge-level-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>SKILLS</h6>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-skills-papers">0</span>  </p>
+                                        <h6>APPPLIED SKILLS LEVEL</h6>
+                                        <p class="font-weight-bold">Number of papers: <span id="acca-applied-skills-level-papers">0</span></p>
                                         <h6>AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-skills-amount">0</p>
+                                        <p class="font-weight-bold" id="acca-applied-skills-level-amount">0</p>
                                     </div>
 
                                     <div class="col-md-4 mb-3 courses-selected">
-                                        <h6>PROFESSIONAL</h6>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-professional-papers">0</span>  </p>
+                                        <h6>STRATEGIC PROFESSIONAL LEVEL</h6>
+                                        <p class="font-weight-bold">Number of papers: <span id="acca-strategic-professional-level-papers">0</span></p>
                                         <h6>AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-professional-amount">0</p>
+                                        <p class="font-weight-bold" id="acca-strategic-professional-level-amount">0</p>
                                     </div>
-                                    <div class="col-md-3 mb-3 courses-selected" id="ican-total-amount-selected">
+                                    <!-- 
+                                    <div class="col-md-4 mb-3 courses-selected">
+                                        <h6>ADVANCED TAXATION</h6>
+                                        <p class="font-weight-bold">Number of paper: <span id="acca-advanced-taxation-papers">0</span></p>
+                                        <h6>AMOUNT (₦)</h6>
+                                        <p class="font-weight-bold" id="acca-advanced-taxation-amount">0</p>
+                                    </div> -->
+
+                                    <div class="col-md-3 mb-3 courses-selected" id="total-courses-selected">
                                         <h6>TOTAL AMOUNT (₦)</h6>
-                                        <p class="font-weight-bold" id="ican-total-amount">0</p>
-                                        <p class="font-weight-bold">Number of papers: <span id="ican-total-papers">0</span>  </p>
+                                        <p class="font-weight-bold" id="acca-total-amount">0</p>
+                                        <p class="font-weight-bold">Number of papers: <span id="acca-total-papers">0</span> </p>
                                     </div>
                                 </div>
+
 
                                 <h6 class="mt-5 font-weight-bold text-center" style="text-decoration: underline">HOW YOU GOT TO KNOW ABOUT THIS TRAINING</h6>
 
@@ -357,18 +373,19 @@
                                     </div>
                                 </div>
                                 <div class="error" id="paymentErr"></div>
+
                                 <div class="form-inline">
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="" id="validCheck3" required>
                                         <label class="form-check-label" for="validCheck3">
-                                            <strong>I have read and agreed to the</strong><a href="terms.php" class="pl-1"> terms and conditions</a>
+                                            <strong>I have read and agreed to the</strong> <a href="terms.php" class="pl-1">terms and conditions</a>
                                         </label>
                                         <div class="error" id="termsErr"></div>
                                     </div>
                                 </div><br>
-
+                                <!-- 
+                                <button class="btn btn-primary btn-lg btn-block" type="submit"><a href="acca-invoice.php"> Continue to checkout</a></button> -->
                                 <button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button>
-                                <!-- <a href="ican-invoice.php"><button class="btn btn-lg btn-block btn-outline-primary">Proceed To Check Out</button></a> -->
                             </form>
                         </div>
                     </div>
@@ -380,7 +397,7 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        <script src="./js/ican.js"></script>
+        <script src="./js/acca.js"></script>
         <script src="./js/validation.js"></script>
 </body>
 
