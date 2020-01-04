@@ -2,16 +2,16 @@
 let foreignWeekdaysPrices = {
     regular: {
         ieltsWeekdaysPaper: '₦35000',
-        toeflWeekdaysPaper: '₦35000',
-        gmatWeekdaysPaper: '₦45000'
+        toeflWeekdaysPaper: '₦70000',
+        gmatWeekdaysPaper: '₦115000'
     }
 }
 
 let foreignWeekendsPrices = {
     regular: {
         ieltsWeekendsPaper: '₦40000',
-        toeflWeekendsPaper: '₦40000',
-        gmatWeekendsPaper: '₦50000'        
+        toeflWeekendsPaper: '₦80000',
+        gmatWeekendsPaper: '₦1300000'        
     }
 }
 

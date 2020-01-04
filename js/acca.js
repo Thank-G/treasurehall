@@ -2,25 +2,25 @@
 // acca paper prices
 let accaAppKnowledgeLevel = {
     accaAppliedKnowledgeLevelPricesOnePaper: '₦23000',
-    accaAppliedKnowledgeLevelPricesTwoPapers: '₦43700',
-    accaAppliedKnowledgeLevelPricesThreePapers: '₦64400'
+    accaAppliedKnowledgeLevelPricesTwoPapers: '₦46000',
+    accaAppliedKnowledgeLevelPricesThreePapers: '₦69000'
 }
 
 let accaAppSkillsLevel = {
     accaCorporateBusinessLawPrice: '₦25000',
-    accaPerformanceManagementPrice: '₦26000',
-    accaTaxationPrice: '₦26000',
-    accaFinancialReportingPrice: '₦26000',
-    accaAuditAssurancePrice: '₦26000',
-    accaFinancialManagementPrice: '₦26000'
+    accaPerformanceManagementPrice: '₦51000',
+    accaTaxationPrice: '₦77000',
+    accaFinancialReportingPrice: '₦103000',
+    accaAuditAssurancePrice: '₦129000',
+    accaFinancialManagementPrice: '₦155000'
 }
 
 let accaStratProfLevel = {
     accaStrategicBusinessReportingPrice: '₦37000',
-    accaStrategicBusinessLeaderPrice: '₦39000',
-    accaAdvancedFinancialManagementPrice: '₦34000',
-    accaAdvancedPerformanceManagementPrice: '₦34000',
-    accaAdvancedAuditAssurancePrice: '₦34000'
+    accaStrategicBusinessLeaderPrice: '₦76000',
+    accaAdvancedFinancialManagementPrice: '₦110000',
+    accaAdvancedPerformanceManagementPrice: '₦144000',
+    accaAdvancedAuditAssurancePrice: '₦178000'
 }
 
 
@@ -46,7 +46,6 @@ $(document).ready(function () {
 
     // get applied skills level number of papers for 
     let accaAppliedSkillsLevelCount = 0;
-    let courseId = [ corporateBusiness, performanceManagement, accaTaxation, financialReporting, auditAssurance, financialManagement ];
     $('#acca-applied-skills-level-courses-selected > div > input:checkbox').click(function () {
         if ($(this).prop('checked') == 1) {
             accaAppliedSkillsLevelCount++;
@@ -57,9 +56,7 @@ $(document).ready(function () {
             $('#acca-applied-skills-level-papers').html(accaAppliedSkillsLevelCount);
         }
         getAccaTotalPapers();
-        for (let i = 0; i < courseId.length; i++) {
-            getAccaAppliedSkillsLevelTotalAmount(courseId[i]);
-        }
+        getAccaAppliedSkillsLevelTotalAmount(accaAppliedSkillsLevelCount);
         displayAccaTotalPrice();
     })
 
@@ -129,84 +126,38 @@ $(document).ready(function () {
 
     /****************************************************************************/
     // get amount of APPPLIED SKILLS LEVEL papers
-    // let accaAppliedSkillsLevelTotalAmount = 0;
-    // function getAccaAppliedSkillsLevelTotalAmount(totalNumberOfAccaAppliedSkillsLevelPapers) {
-    //     let { accaCorporateBusinessLawPrice, accaPerformanceManagementPrice, accaTaxationPrice, accaFinancialReportingPrice, accaAuditAssurancePrice, accaFinancialManagementPrice } = accaAppSkillsLevel;
-    //     switch (totalNumberOfAccaAppliedSkillsLevelPapers) {
-    //         case 1:
-    //             accaAppliedSkillsLevelTotalAmount = accaCorporateBusinessLawPrice;
-    //             console.log(`the amount for one applied skills level paper is ${accaAppliedSkillsLevelTotalAmount}`);
-    //             $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
-    //             break;
-    //         case 2:
-    //             accaAppliedSkillsLevelTotalAmount = accaPerformanceManagementPrice;
-    //             console.log(`the amount for two applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
-    //             $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
-    //             break;
-    //         case 3:
-    //             accaAppliedSkillsLevelTotalAmount = accaTaxationPrice;
-    //             console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
-    //             $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
-    //             break;
-    //         case 4:
-    //             accaAppliedSkillsLevelTotalAmount = accaFinancialReportingPrice;
-    //             console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
-    //             $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
-    //             break;
-    //         case 5:
-    //             accaAppliedSkillsLevelTotalAmount = accaAuditAssurancePrice;
-    //             console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
-    //             $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
-    //             break;
-    //         case 6:
-    //             accaAppliedSkillsLevelTotalAmount = accaFinancialManagementPrice;
-    //             console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
-    //             $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
-    //             break;
-    //         default:
-    //             accaAppliedSkillsLevelTotalAmount = 0;
-    //             console.log(`no course selected hence amount for applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
-    //             $('#acca-applied-skills-level-amount').html(0);
-    //             break;
-    //     }
-    // }
-
-
-
-    /****************************************************************************/
-    // get amount of APPPLIED SKILLS LEVEL papers
     let accaAppliedSkillsLevelTotalAmount = 0;
-    function getAccaAppliedSkillsLevelTotalAmount(...courseId) {
+    function getAccaAppliedSkillsLevelTotalAmount(totalNumberOfAccaAppliedSkillsLevelPapers) {
         let { accaCorporateBusinessLawPrice, accaPerformanceManagementPrice, accaTaxationPrice, accaFinancialReportingPrice, accaAuditAssurancePrice, accaFinancialManagementPrice } = accaAppSkillsLevel;
-        switch (courseId) {
-            case $('#corporateBusiness'):
+        switch (totalNumberOfAccaAppliedSkillsLevelPapers) {
+            case 1:
                 accaAppliedSkillsLevelTotalAmount = accaCorporateBusinessLawPrice;
                 console.log(`the amount for one applied skills level paper is ${accaAppliedSkillsLevelTotalAmount}`);
                 $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
                 break;
-            case $('#performanceManagement'):
+            case 2:
                 accaAppliedSkillsLevelTotalAmount = accaPerformanceManagementPrice;
                 console.log(`the amount for two applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
                 $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
                 break;
-            case $('#accaTaxation'):
+            case 3:
                 accaAppliedSkillsLevelTotalAmount = accaTaxationPrice;
                 console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
                 $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
                 break;
-            case $('#financialReporting'):
+            case 4:
                 accaAppliedSkillsLevelTotalAmount = accaFinancialReportingPrice;
-                console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
+                console.log(`the amount for four applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
                 $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
                 break;
-            case $('#auditAssurance'):
+            case 5:
                 accaAppliedSkillsLevelTotalAmount = accaAuditAssurancePrice;
-                console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
+                console.log(`the amount for five applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
                 $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
                 break;
-            case $('#financialManagement'):
+            case 6:
                 accaAppliedSkillsLevelTotalAmount = accaFinancialManagementPrice;
-                console.log(`the amount for three applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
+                console.log(`the amount for six applied skills level papers are ${accaAppliedSkillsLevelTotalAmount}`);
                 $('#acca-applied-skills-level-amount').html(`${accaAppliedSkillsLevelTotalAmount}`.slice(1));
                 break;
             default:
@@ -216,7 +167,6 @@ $(document).ready(function () {
                 break;
         }
     }
-
 
 
     /****************************************************************************/
@@ -249,12 +199,12 @@ $(document).ready(function () {
                 $('#acca-strategic-professional-level-amount').html(`${accaStrategicProfAmount}`.slice(1));
                 // return accaStrategicBusinessLeaderPrice;
                 break;
-                case 5:
-                    accaStrategicProfAmount = accaAdvancedAuditAssurancePrice;
-                    console.log(`the amount for five strategic professional level papers are ${accaStrategicProfAmount}`);
-                    $('#acca-strategic-professional-level-amount').html(`${accaStrategicProfAmount}`.slice(1));
-                    // return accaStrategicBusinessLeaderPrice;
-                    break;
+            case 5:
+                accaStrategicProfAmount = accaAdvancedAuditAssurancePrice;
+                console.log(`the amount for five strategic professional level papers are ${accaStrategicProfAmount}`);
+                $('#acca-strategic-professional-level-amount').html(`${accaStrategicProfAmount}`.slice(1));
+                // return accaStrategicBusinessLeaderPrice;
+                break;
             default:
                 accaStrategicProfAmount = 0;
                 console.log(`no course selected hence amount for strategic professional level papers are ${accaStrategicProfAmount}`);
